@@ -45,16 +45,14 @@ public abstract class Layer {
     /**
      * Performs backpropagation for vector-style input.
      *
-     * @param lossGradient the derivative of the loss function with respect to
-     *                     this layer's output (dL/dO)
+     * @param lossGradient the derivative of the loss function with respect to this layer's output (dL/dO)
      */
     public abstract void backPropagation(double[] lossGradient);
 
     /**
      * Performs backpropagation for matrix-style input.
      *
-     * @param lossGradient the derivative of the loss function with respect to
-     *                     this layer's output as a list of 2D arrays
+     * @param lossGradient the derivative of the loss function with respect to this layer's output as a list of 2D arrays
      */
     public abstract void backPropagation(List<double[][]> lossGradient);
 
