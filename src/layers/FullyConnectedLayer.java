@@ -5,6 +5,7 @@ import java.util.Random;
 
 /**
  * Represents a fully connected (dense) neural network layer.
+ * <a href="https://www.youtube.com/watch?v=JJUlkPFq1q8&list=PLpcNcOt2pg8k_YsrMjSwVdy3GX-rc_ZgN&index=4">Tutorial Segment</a>
  *
  * <p>This layer performs two core operations:</p>
  *
@@ -198,6 +199,7 @@ public class FullyConnectedLayer extends Layer {
     }
 
     // RELU Activation Functions
+    // NOTE: RELU means Rectified Linear Unit (ReLU)
 
     /**
      * Applies the ReLU activation function.
