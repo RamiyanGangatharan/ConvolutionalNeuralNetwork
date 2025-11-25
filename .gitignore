@@ -1,13 +1,3 @@
-### Dataset directories ###
-data/
-datasets/
-**/data/
-**/datasets/
-*.csv
-*.gz
-*.idx
-*.npz
-
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
